@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import Responsive from './Responsive';
-import Button from './Button';
-
+import React from "react";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import Responsive from "./Responsive";
+import Button from "./Button";
+import offCanvas from "../../containers/common/offCanvas";
 const HeaderBlock = styled.div`
   position: fixed;
   width: 100%;
@@ -61,6 +61,7 @@ const Header = ({ user, onLogout }) => {
             </div>
           )}
         </Wrapper>
+        <offCanvas />
       </HeaderBlock>
       <Spacer />
     </>

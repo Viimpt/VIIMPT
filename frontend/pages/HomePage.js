@@ -5,7 +5,7 @@ import VideoList from "../components/common/VideoList";
 import ResultList from "../components/common/ResultList";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-
+import offcanvas from "../components/common/offCanvas";
 //95b8d71da2cc44268cde62d495c1e41b
 const HomePage = () => {
   return (
